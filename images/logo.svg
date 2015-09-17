@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="140px" height="241px" viewBox="0 0 140 241" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs></defs>
+    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(-890.000000, -76.000000)">
+            <g>
+                <g transform="translate(889.600000, 76.772727)">
+                    <path d="M74.29376,94.7324273 L84.97408,0.0588590909 L45.07392,94.7324273 L74.29376,94.7324273" fill="#0061B6"></path>
+                    <path d="M66.432,145.325655 L55.75424,239.999223 L95.65184,145.325655 L66.432,145.325655" fill="#004683"></path>
+                    <path d="M55.75424,239.999223 L139.48416,120.029041 L1.24416,120.029041 L15.85408,145.325655 L95.65184,145.325655 L55.75424,239.999223" fill="#0061B6"></path>
+                    <path d="M84.97408,0.0563 L1.24416,120.029041 L139.48416,120.029041 L124.87168,94.7298682 L45.07392,94.7298682 L84.97408,0.0563" fill="#279BFF"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
