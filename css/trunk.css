@@ -1,4 +1,7 @@
 body {
+	
+	font: 12px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	color: #9aa6af;
 	text-rendering: optimizelegibility;
 	
 	-webkit-tap-highlight-color:rgba(0,0,0,0);
@@ -12,14 +15,13 @@ body {
 	-ms-tap-highlight-color:rgba(0,0,0,0); 
 	-ms-text-size-adjust: none;
 	-ms-font-smoothing: antialiased;
-	font-family: 'Lato';
 }
 a {text-decoration: none;}
 
 .container {
 	overflow: hidden;
-	background-color: #000;
-
+	z-index: 10;
+	width: 100%;
 /*  Prevents Flickering  */
 	-webkit-backface-visibility: hidden;
 	-moz-backface-visibility: hidden;
@@ -30,30 +32,24 @@ a {text-decoration: none;}
 
 
 header {
-    height: 60px;
-    width: 100%;
-    position: absolute;
-    background-color: #1677CB;
-    top: 0;
-    left: 0;
+	height: 60px;
+	position: relative;
+	background-color: #1677CB;
 }
 header h1 {
-	color: #9aa6af;
+	color: #fff;
 	text-align: left;
 	font-size: 27px;
-	line-height: 22px;
 	font-weight: bold;
-	padding-left: 20px;
-	color: #fff;
+	line-height: 60px;
+	margin-left: 20px;
 }
 
 .burger {
 	position: absolute;
 	float: left;
 	padding: 10px;
-	top: 4px;
 	left: 10px;
-	
 	display: none;
 }
 .burger li {
@@ -62,6 +58,7 @@ header h1 {
 	background-color: #fff;
 	border-radius: 3px;
 	margin: 5px 0;
+	list-style: none;
 }
 .burger.open li {background-color: #d9dde1;}
 
@@ -69,7 +66,6 @@ nav {
 	position: absolute;
 	top: 0;
 	right: 5px;
-	color: #fff;
 }
 nav li {
 	float: left;
@@ -78,10 +74,9 @@ nav li {
 }
 nav li a {
 	font-size: 11px;
-	color: #fff;
-	font-weight: bold;
-    padding: 0px 10px;
-    line-height: 30px;
+	color: #9aa6af;
+	padding: 24px 15px;
+	
 	display: block;
 }
 nav li a:hover {color: #000;}
@@ -121,7 +116,7 @@ nav li a:hover {color: #000;}
 header {
 	height: 60px;
 	z-index: 2;
-	background-color: #060a0c;
+	background-color: #1677CB;
 	
 	position: fixed;
 	top: 0;
@@ -138,6 +133,7 @@ header h1 {
 	text-align: center;
 	padding-left: 0;
 	display: block;
+	line-height: 50px;
 }
 .burger {display: block;}
 
@@ -185,7 +181,6 @@ nav {
 	top: 0;
 	margin: 0;
 	background-color: #1d2d35;
-	border-radius: 8px;
 	
 	/* starting point */
 	opacity: .3;
