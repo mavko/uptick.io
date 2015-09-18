@@ -1,6 +1,6 @@
 body {
 	
-	font: 12px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	font: 12px "Lato", Arial, Helvetica, Geneva, sans-serif;
 	color: #9aa6af;
 	text-rendering: optimizelegibility;
 	
@@ -15,6 +15,8 @@ body {
 	-ms-tap-highlight-color:rgba(0,0,0,0); 
 	-ms-text-size-adjust: none;
 	-ms-font-smoothing: antialiased;
+
+	font-family: 'Lato';
 }
 a {text-decoration: none;}
 
@@ -35,6 +37,7 @@ header {
 	height: 60px;
 	position: relative;
 	background-color: #1677CB;
+	color: #fff;
 }
 header h1 {
 	color: #fff;
@@ -43,6 +46,9 @@ header h1 {
 	font-weight: bold;
 	line-height: 60px;
 	margin-left: 20px;
+}
+header ul li a {
+	color: #fff;
 }
 
 .burger {
@@ -73,9 +79,11 @@ nav li {
 	display: inline-block;
 }
 nav li a {
-	font-size: 11px;
-	color: #9aa6af;
-	padding: 24px 15px;
+	font-size: 14px;
+	color: #fff;
+	font-weight: bold;
+	line-height: 60px;
+	padding-right: 20px;
 	
 	display: block;
 }
