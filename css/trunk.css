@@ -131,7 +131,7 @@ header {
 	right: 0;
 	left: 0;
 	
-		/* starting point */
+	/* starting point */
 	-webkit-transform: translate3d(0,0,0);
 	-moz-transform: translate3d(0,0,0);
 	transform: translate3d(0,0,0);
